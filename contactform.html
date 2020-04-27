@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact_form</title>
+	<link rel="stylesheet" href="contact.css">
+  <script type="text/javascript" >
+    document.write(Hello);
+  </script>
+	
+	
+</head>
+<body>
+	
+<div class="wrapper">
+  <div class="content">
+    <h1>CONTACT FORM</h1>
+    <p>Connect with us by sending your message</p>
+  </div>
+
+  <div class="form" name="myForm" action="/action.php" method="POST" onsubmit="return(validateForm());">
+
+    <div class="top-form">
+      <div class="inner-form">
+        <div class="label">name</div>
+        <input name="name" type="text" placeholder="Jhon">
+      </div>
+      <div class="inner-form">
+        <div class="label">email</div>
+        <input name="email" type="text" placeholder="Example@gmail.com">
+      </div>
+      <div class="inner-form">
+        <div class="label">phone</div>
+        <input name="phone" type="text" placeholder="1234567890">
+      </div>
+    </div>
+
+    <div class="middle-form">
+      <div class="inner-form">
+        <div class="label">subject</div>
+        <input name="subject"type="text" placeholder="Subject">
+      </div>
+    </div>
+
+    <div class="bottom-form">
+      <div class="inner-form">
+        <div class="label">message</div>
+        <textarea name="message" placeholder="Your message"></textarea>
+      </div>
+    </div>
+
+    <div class="btn">send message</div>
+
+  </div>
+</div>
+
+</body>
+</html>
